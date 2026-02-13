@@ -8,8 +8,8 @@ username: fellipe-prim
 profile:
   name: "Fellipe Prim"
   tagline: "Software Engineer"
-  company: "SoftExpert" # Deixe vazio ou coloque sua empresa atual
-  location: "Brasil"
+  company: "SoftExpert"
+  location: "Joinville, SC"
   bio: |
     Software Engineer focado em desenvolvimento de sistemas e resolução de problemas complexos.
     Interessado em arquitetura de software, algoritmos e novas tecnologias.
@@ -17,12 +17,11 @@ profile:
 
 # Links Sociais
 social:
-  email: "prim.fellipe@gmail.com" # Adicione seu e-mail se desejar
-  linkedin: "fellipe-prim" # Ajuste se o seu handle for diferente
+  email: "prim.fellipe@gmail.com"
+  linkedin: "fellipe-prim"
   website: ""
 
 # Braços da Galáxia (Suas especialidades)
-# Cores disponíveis: "synapse_cyan", "dendrite_violet", "axon_amber"
 galaxy_arms:
   - name: "Desenvolvimento"
     color: "synapse_cyan"
@@ -42,8 +41,7 @@ galaxy_arms:
       - "Git"
       - "Docker"
 
-# Projetos em destaque (Substitua pelos nomes dos SEUS repositórios reais)
-# arm: 0-2 indica em qual braço da galáxia o projeto orbita
+# Projetos em destaque
 projects:
   - repo: "fellipe-prim/galaxy-profile"
     arm: 0
@@ -58,4 +56,10 @@ stats:
     - "issues"
     - "repos"
 
-#
+# Configurações de Linguagens
+languages:
+  exclude:
+    - "HTML"
+    - "CSS"
+    - "Shell"
+  max_display: 8
